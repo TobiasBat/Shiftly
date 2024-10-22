@@ -20,3 +20,8 @@ The program supports the following commands:
 | *Command Line:* <br>`set stepper=<int> degree=<int>`<br>*REST:*<br>`PUT /set?stepper=<int>\&degree=<int>`<br><br>The `set` command is used to set the internal step counter. When executed, the internal step counter is set to the provided value without rotating the motor. This command is used to adjust the counter after the system loses track of the rotation of the motor. |
 | *Command Line:* <br/>`step stepper=<int> degree=<int> microsteps=<int>`<br><br>*REST:*<br>`PUT /step?stepper=<int>\&degree=<int>\&microsteps=<int>`<br><br>The `step` command rotates the motor by a certain number of degrees. In contrast to the above command, the large gear is rotated by the given degrees, but the step counter is unchanged. This command is used for the initialization of the physical device. |
 
+
+<br>
+<br>
+Further information can be found in:<br>
+Batik, T. (2023). Design and evaluation of a novel shape changing haptic device for virtual reality [Diploma Thesis, Technische Universität Wien]. reposiTUm. https://doi.org/10.34726/hss.2023.111843
