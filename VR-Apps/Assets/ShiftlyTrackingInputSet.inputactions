@@ -1,0 +1,122 @@
+{
+    "name": "ShiftlyTrackingInputSet",
+    "maps": [
+        {
+            "name": "Shiftly Vive Tracker",
+            "id": "d2a4cf1d-9f2c-4705-af79-5f07c0695d33",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "919adecc-aeb3-44ce-afc2-1fa512225d6a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "3e2c9da3-d2d6-4502-ba8b-c8e5ce8a21be",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd161f97-8729-419b-81ca-fd9739bc81d4",
+                    "path": "<XRViveTracker>{Keyboard}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d16b7958-e605-4692-b15c-cd16b1aa95c6",
+                    "path": "<XRViveTracker>{Keyboard}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Hand Correction",
+            "id": "1a8dd6a7-86ed-4215-bf8d-108691c875cb",
+            "actions": [
+                {
+                    "name": "Position Right",
+                    "type": "Value",
+                    "id": "18315c53-82ec-4bd4-83c2-f37c5f2c2748",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation Right",
+                    "type": "Value",
+                    "id": "2bf442e1-036a-46eb-8b90-309377de6293",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Correction Started Right",
+                    "type": "Value",
+                    "id": "a45efa70-7f62-46fc-8581-bdbf05d162a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "73ce1b98-501a-4725-bc40-1f09b881ce20",
+                    "path": "<XRViveTracker>{Left Foot}/devicePose/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6436298f-de75-41ec-b9c3-884c978537a3",
+                    "path": "<XRViveTracker>{Left Foot}/devicePose/rotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6910e9bf-b681-416c-a0aa-f2923adc6dc0",
+                    "path": "<Keyboard>/#(R)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Correction Started Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

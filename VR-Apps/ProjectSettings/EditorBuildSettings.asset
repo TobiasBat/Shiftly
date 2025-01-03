@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Object Circle Siggraph.unity
+    guid: 96cbf33f9cbbd4a94b269a86988240d6
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 87b51ce804845d3409972c18d8b7a4bc, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 32101031b87422e45accf28c75e7fb35, type: 2}
