@@ -7,9 +7,10 @@ This repo contains the CAD files to print the device, the microcontroller for th
 
 
 If you use any information or material from this repo, please cite this publication: 
-
-***Shiftly: A Novel Origami Shape-Shifting Haptic Device for Virtual Reality
-Tobias Batik, Hugo Brument, Khrystyna Vasylevska, Hannes Kaufmann, Currently in Review, 2025***
+```
+Shiftly: A Novel Origami Shape-Shifting Haptic Device for Virtual Reality
+Tobias Batik, Hugo Brument, Khrystyna Vasylevska, Hannes Kaufmann, Currently in Review, 2025
+```
 
 
 
